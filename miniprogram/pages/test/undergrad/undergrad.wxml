@@ -1,0 +1,9 @@
+<view style="text-align:center"> {{title}} </view>
+
+<view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]}}" wx:for-item="i">
+    <view class="post">
+        <view>路顺利 | 学生 | 男 | 25岁 | 本科 | 50元/小时</view>
+        <view>大家好，我叫路顺利， 是一名工程技术背景的学生。我平时对XXX比较感兴趣。</view>
+        <view>电话： 17610081155 微信号： 554300112</view>
+    </view>
+</view>

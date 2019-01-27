@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/login/login",
+    "pages/index/signup/signup",
+    "pages/index/howItWorks/howItWorks",
+    "pages/test/test",
+    "pages/test/undergrad/undergrad",
+    "pages/post/post",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f58723",
+    "navigationBarTitleText": "赚测试",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/test/test",
+        "text": "参加测试",
+        "iconPath": "images/search_off.png",
+        "selectedIconPath": "images/search_on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/me_off.png",
+        "selectedIconPath": "images/me_on.png"
+      }
+    ]
+  }
+}

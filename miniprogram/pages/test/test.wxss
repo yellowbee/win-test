@@ -1,0 +1,64 @@
+@import "../../common/style/weui.wxss";
+
+page {
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.full_len_input {
+    background-color: white;
+    padding: 20rpx 20rpx;
+    margin: 20rpx 0;
+}
+
+.common_style {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 650rpx;
+    padding: 20rpx 20rpx;
+    margin: 20rpx 0;
+}
+
+.flex-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.test__criteria {
+    background-color: #f0f0f0;
+    padding: 20rpx 0;
+}
+
+.flex-item-trio {
+    width: 250rpx;
+    text-align: center;
+}
+
+.signup__btn {
+    background-color: #f58723;
+    color: white;
+}
+
+.post {
+    width: 710rpx;
+    height: 200rpx;
+    background-color: white;
+    margin-bottom: 5rpx;
+    padding: 20rpx 20rpx;
+}
+
+.test__header {
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    text-align: center;
+}
+
+.test__result {
+    position: relative;
+    top: 200rpx;
+}
+
